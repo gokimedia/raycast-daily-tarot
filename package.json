@@ -1,0 +1,52 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "daily-tarot",
+  "title": "Daily Tarot",
+  "description": "Pull your daily tarot card with upright and reversed meanings. Powered by Deckaura.",
+  "icon": "command-icon.png",
+  "author": "deckaura",
+  "owner": "deckaura",
+  "categories": ["Fun", "Other"],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "daily",
+      "title": "Daily Tarot Card",
+      "description": "Pull today's tarot card with meanings",
+      "mode": "view"
+    },
+    {
+      "name": "random",
+      "title": "Random Tarot Draw",
+      "description": "Draw a random tarot card",
+      "mode": "view"
+    },
+    {
+      "name": "three-card",
+      "title": "Three-Card Spread",
+      "description": "Past / Present / Future reading",
+      "mode": "view"
+    },
+    {
+      "name": "yes-no",
+      "title": "Yes or No Reading",
+      "description": "Ask a question and get a tarot verdict",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.80.0",
+    "@raycast/utils": "^1.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "publish": "ray publish"
+  },
+  "keywords": ["tarot", "divination", "daily", "oracle", "deckaura"]
+}
