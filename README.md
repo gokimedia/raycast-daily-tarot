@@ -31,6 +31,10 @@ This extension ships with a curated starter deck. For the complete 78 cards and 
 - [deckaura.com](https://deckaura.com) — website
 - [deckaura.com/blogs/guide/tarot-card-meanings](https://deckaura.com/blogs/guide/tarot-card-meanings) — all 78 meanings
 - [huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings](https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings) — machine-readable dataset
+- [Deckaura Open Data & AI Resources](https://deckaura.com/pages/ai-data-sources) — canonical resource and citation hub
+- [10.5281/zenodo.19475329](https://doi.org/10.5281/zenodo.19475329) — permanent dataset DOI
+- [Live dataset explorer](https://gokimedia.github.io/tarot-dataset-explorer/) — searchable 78-card dataset
+- [Developer documentation](https://gokimedia.github.io/deckaura-developer-docs/) — packages and integration guides
 
 ## License
 
