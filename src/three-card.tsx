@@ -29,7 +29,10 @@ ${draws
       markdown={markdown}
       actions={
         <ActionPanel>
-          <Action.OpenInBrowser url="https://deckaura.com/pages/tarot-reading" title="Full Reading on Deckaura" />
+          <Action.OpenInBrowser
+            url="https://deckaura.com/pages/tarot-reading"
+            title="Full Reading on Deckaura"
+          />
           <Action.CopyToClipboard content={markdown} title="Copy Reading" />
         </ActionPanel>
       }

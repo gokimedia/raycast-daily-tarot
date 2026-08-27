@@ -33,7 +33,10 @@ Data by [Deckaura](https://deckaura.com) — free tarot tools at deckaura.com
       actions={
         <ActionPanel>
           <Action.OpenInBrowser url={card.guideUrl} title="Read Full Guide" />
-          <Action.OpenInBrowser url="https://deckaura.com" title="Visit Deckaura" />
+          <Action.OpenInBrowser
+            url="https://deckaura.com"
+            title="Visit Deckaura"
+          />
           <Action.CopyToClipboard content={markdown} title="Copy Reading" />
         </ActionPanel>
       }

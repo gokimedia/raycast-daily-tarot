@@ -19,6 +19,7 @@ Powered by **[Deckaura](https://deckaura.com)** — free tarot and astrology pla
 ```
 
 Or clone and develop locally:
+
 ```bash
 git clone https://github.com/gokimedia/raycast-daily-tarot
 cd raycast-daily-tarot

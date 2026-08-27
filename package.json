@@ -5,8 +5,14 @@
   "description": "Pull your daily tarot card with upright and reversed meanings. Powered by Deckaura.",
   "icon": "command-icon.png",
   "author": "deckaura",
-  "owner": "deckaura",
-  "categories": ["Fun", "Other"],
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "categories": [
+    "Fun",
+    "Other"
+  ],
   "license": "MIT",
   "commands": [
     {
@@ -39,14 +45,26 @@
     "@raycast/utils": "^2.3.0"
   },
   "devDependencies": {
+    "@raycast/eslint-config": "^2.2.0",
     "@types/node": "^22.10.0",
     "@types/react": "^19.0.0",
+    "eslint": "^10.9.1",
+    "prettier": "^3.9.6",
     "typescript": "^5.7.2"
   },
   "scripts": {
     "build": "ray build",
     "dev": "ray develop",
-    "publish": "ray publish"
+    "lint": "ray lint",
+    "fix-lint": "ray lint --fix",
+    "format": "prettier --check src package.json README.md",
+    "publish": "npx @raycast/api@latest publish"
   },
-  "keywords": ["tarot", "divination", "daily", "oracle", "deckaura"]
+  "keywords": [
+    "tarot",
+    "divination",
+    "daily",
+    "oracle",
+    "deckaura"
+  ]
 }

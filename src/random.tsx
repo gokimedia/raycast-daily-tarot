@@ -24,7 +24,10 @@ Powered by [Deckaura](https://deckaura.com)
       actions={
         <ActionPanel>
           <Action.OpenInBrowser url={card.guideUrl} title="Read Full Guide" />
-          <Action.OpenInBrowser url="https://deckaura.com/pages/random-tarot-card" title="More Random Draws on Deckaura" />
+          <Action.OpenInBrowser
+            url="https://deckaura.com/pages/random-tarot-card"
+            title="More Random Draws on Deckaura"
+          />
         </ActionPanel>
       }
     />

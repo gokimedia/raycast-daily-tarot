@@ -22,7 +22,10 @@ Data by [Deckaura](https://deckaura.com)
       actions={
         <ActionPanel>
           <Action.OpenInBrowser url={card.guideUrl} title="Read Card Guide" />
-          <Action.OpenInBrowser url="https://deckaura.com/collections/yes-or-no-oracle" title="Yes/No Oracle on Deckaura" />
+          <Action.OpenInBrowser
+            url="https://deckaura.com/collections/yes-or-no-oracle"
+            title="Yes/No Oracle on Deckaura"
+          />
         </ActionPanel>
       }
     />
@@ -36,7 +39,10 @@ export default function YesNoCommand() {
     <Form
       actions={
         <ActionPanel>
-          <Action.SubmitForm title="Draw Card" onSubmit={() => push(<Result question={question} />)} />
+          <Action.SubmitForm
+            title="Draw Card"
+            onSubmit={() => push(<Result question={question} />)}
+          />
         </ActionPanel>
       }
     >
