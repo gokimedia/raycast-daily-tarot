@@ -11,14 +11,11 @@ Powered by **[Deckaura](https://deckaura.com)** — free tarot and astrology pla
 - **Three-Card Spread** — Past / Present / Future reading
 - **Yes or No Reading** — Ask a question, get a card-based verdict
 
-## Install
+## Publication status
 
-```bash
-# From Raycast Store
-# Cmd+Space → "Store" → Search "Daily Tarot"
-```
+The extension is complete and builds locally, but it is not yet listed in the Raycast Store. Before publishing, replace the manifest's `author` value with the exact handle of an existing Raycast Store account.
 
-Or clone and develop locally:
+## Install from source
 
 ```bash
 git clone https://github.com/gokimedia/raycast-daily-tarot
