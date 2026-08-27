@@ -32,7 +32,7 @@ This extension ships with a curated starter deck. For the complete 78 cards and 
 
 - [deckaura.com](https://deckaura.com) — website
 - [deckaura.com/blogs/guide/tarot-card-meanings](https://deckaura.com/blogs/guide/tarot-card-meanings) — all 78 meanings
-- [huggingface.co/datasets/deckaura/tarot-card-meanings](https://huggingface.co/datasets/deckaura/tarot-card-meanings) — machine-readable dataset
+- [huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings](https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings) — machine-readable dataset
 
 ## License
 

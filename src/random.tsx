@@ -3,8 +3,10 @@ import { useMemo } from "react";
 import { drawRandom } from "./lib/deck";
 
 export default function RandomTarotCommand() {
-  const card = useMemo(() => drawRandom(), []);
-  const reversed = Math.random() < 0.5;
+  const { card, reversed } = useMemo(
+    () => ({ card: drawRandom(), reversed: Math.random() < 0.5 }),
+    [],
+  );
   const meaning = reversed ? card.reversed : card.upright;
   const markdown = `
 # ${card.name}${reversed ? " (Reversed)" : ""}

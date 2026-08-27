@@ -1,9 +1,9 @@
 import { Form, ActionPanel, Action, useNavigation, Detail } from "@raycast/api";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { drawRandom } from "./lib/deck";
 
 function Result({ question }: { question: string }) {
-  const card = drawRandom();
+  const card = useMemo(() => drawRandom(), []);
   const markdown = `
 # ${question}
 
